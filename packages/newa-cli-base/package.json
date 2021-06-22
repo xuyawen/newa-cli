@@ -1,0 +1,54 @@
+{
+  "name": "newa-cli-base",
+  "version": "1.0.2",
+  "description": "newa-cli-base",
+  "bin": {
+    "newa": "bin/newa.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "xuyawen",
+  "homepage": "https://github.com/xuyawen/newa-cli",
+  "license": "MIT",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuyawen/newa-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/xuyawen/newa-cli/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0",
+    "deepmerge": "^4.2.2",
+    "ejs": "^3.1.6",
+    "execa": "^5.0.0",
+    "fs-extra": "^9.1.0",
+    "globby": "^11.0.2",
+    "inquirer": "^7.3.3",
+    "isbinaryfile": "^4.0.6",
+    "javascript-stringify": "^2.0.1",
+    "lodash.clonedeep": "^4.5.0",
+    "newa-cli-plugin-babel": "^1.0.13",
+    "newa-cli-plugin-linter": "^1.0.13",
+    "newa-cli-plugin-router": "^1.0.15",
+    "newa-cli-plugin-vuex": "^1.0.13",
+    "newa-cli-service": "^1.0.15",
+    "node-fetch": "^2.6.1",
+    "read-pkg": "^2.0.0",
+    "readline": "^1.3.0",
+    "recast": "^0.20.4",
+    "resolve": "^1.20.0",
+    "vue-codemod": "0.0.5",
+    "yaml-front-matter": "^4.1.1"
+  }
+}
