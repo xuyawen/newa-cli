@@ -10,11 +10,7 @@ module.exports = {
     },
     extends: [
         'plugin:vue/essential',
-        <%_ if (hasAirbnb) { _%>
         'airbnb-base',
-        <%_ } else { _%>
-        'standard',
-        <%_ } _%>
     ],
     rules: {
         'no-console': 'off',
