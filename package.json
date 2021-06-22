@@ -15,6 +15,16 @@
   ],
   "author": "xuyawen",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuyawen/newa-cli.git"
+  },
+  "homepage": "https://github.com/xuyawen/newa-cli#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "node scripts/verify-commit.js"
+    }
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.0.0",
